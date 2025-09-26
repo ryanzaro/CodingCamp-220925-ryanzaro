@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan Zaro - Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <div class="logo">RYANZARO</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">My Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <h1>Welcome <span id="username"></span> My Portfolio</h1>
+      <p>Connecting Technology, Building Future</p>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        Halo, saya <strong>M. Ryan Zarosandi Putra</strong>, seorang Network
+        Engineer yang juga menekuni dunia Front-End Development. Saya sangat
+        tertarik terhadap dunia teknologi dan selalu berusaha untuk terus
+        belajar. Berpengalaman dalam mengelola jaringan kabel dan nirkabel antar
+        wilayah, menangani masalah konektivitas yang kompleks, serta memantau
+        kinerja jaringan. Selalu menjelajahi teknologi baru, framework, dan
+        tools untuk memperluas kemampuan, dengan ketertarikan khusus dalam
+        menciptakan pengalaman web yang mulus dan interaktif. Saya menikmati
+        tantangan teknis, mengotomatisasi proses, dan mengubah ide menjadi
+        solusi digital yang fungsional.
+      </p>
+    </section>
+
+    <!-- My Skills -->
+    <section id="skills" class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-boxes">
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/ios-filled/100/ffffff/network.png"
+            alt="Network Engineer"
+          />
+          <h3>Network Engineer</h3>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/ios-filled/100/ffffff/router.png"
+            alt="Cisco"
+          />
+          <h3>Cisco Networking</h3>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/ios-filled/100/ffffff/wifi.png"
+            alt="Aruba"
+          />
+          <h3>Aruba Networking</h3>
+        </div>
+
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/ios-filled/100/ffffff/source-code.png"
+            alt="Frontend"
+          />
+          <h3>Front-End Developer</h3>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/ios-filled/100/ffffff/wrench.png"
+            alt="PC Maintenance"
+          />
+          <h3>PC Maintenance</h3>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/ios-filled/100/ffffff/linux.png"
+            alt="Linux"
+          />
+          <h3>Linux</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-wrapper">
+        <!-- Form -->
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" />
+          <input type="email" id="email" placeholder="Your Email" />
+          <input type="tel" id="phone" placeholder="Your Phone Number" />
+          <textarea id="message" placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Profile Box -->
+        <div class="profile-box">
+          <h3>Website Creator</h3>
+          <p>
+            <i data-feather="user"> </i>
+            <strong>Name</strong> : M. Ryan Zarosandi Putra
+          </p>
+          <p>
+            <i data-feather="user"> </i>
+            <strong>Nickname</strong> : Ryan Zaro
+          </p>
+          <p>
+            <i data-feather="award"> </i>
+            <strong>Role</strong> : Network Engineer | Front-End Learner | Linux
+          </p>
+          <p>
+            <i data-feather="briefcase"> </i>
+            <strong>Company</strong> : PT. Infomedia Nusantara (Telkom
+            Indonesia)
+          </p>
+          <p>
+            <i data-feather="clock"> </i>
+            <strong>Current Time </strong> : <span id="current-time"> </span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Ryan Zaro. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="/Script/script.js"></script>
+  </body>
+</html>
