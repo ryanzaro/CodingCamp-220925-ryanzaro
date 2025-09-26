@@ -1,5 +1,7 @@
 // Welcome Message
-welcomeMessage();
+window.addEventListener("DOMContentLoaded", () => {
+  welcomeMessage();
+});
 
 function welcomeMessage() {
   let username = prompt("Masukan Username Anda:");
